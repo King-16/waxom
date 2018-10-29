@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1440px){
+	.menu{
+		display: none;
+	}
+	.psd__template{
+		line-height: 100px;
+	}
+	.logo{
+		margin: 0 auto;
+	}
+	.menu__icon{
+		display: block;
+	}
+}
+@media only screen and (max-width: 780px){
+	.featured__block{
+		margin-top: 100px;
+	}
+	.presentation{
+		margin-top: 200px;
+	}
+	.phone__content{
+		flex-wrap: wrap;
+	}
+	.phone__text{
+		padding: 30px 10px;
+	}
+}
+@media only screen and (max-width: 425px){
+	.phone__featured{
+		padding: 80px 0;
+		align-items: center;
+		justify-content: center;
+	}
+	.phone__featured-item{
+		margin-top: 80px;
+	}
+	.phone__featured-item:first-child{
+		margin-top: 0;
+	}
+	.client__item{
+		display: none;
+	}
+	.presentation{
+		margin-top: 1350px;
+	}
+}
