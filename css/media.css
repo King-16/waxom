@@ -11,19 +11,42 @@
 	.menu__icon{
 		display: block;
 	}
+	.project__btn{
+		margin-top: 100px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.featured__block{
+		margin: 50px;
+	}
+	.phone__featured-item{
+		margin: 5px;
+	}
 }
 @media only screen and (max-width: 780px){
 	.featured__block{
 		margin-top: 100px;
 	}
 	.presentation{
-		margin-top: 200px;
+		margin-top: 0;
 	}
 	.phone__content{
 		flex-wrap: wrap;
 	}
 	.phone__text{
 		padding: 30px 10px;
+	}
+	.phone__featured{
+		padding: 20px 0;
+	}
+	.phone__featured-item{
+		margin: 40px 0;
+	}
+	.phone__img{
+		margin: 0 auto;
+	}
+	.project__btn{
+		margin-top: 400px;
 	}
 }
 @media only screen and (max-width: 425px){
